@@ -11,8 +11,7 @@ namespace RepositoryPattern.Business.Abstract
 {
     public interface IStudentService
     {
-        // 
-        //
+        
         Student GetById(int StudentId);
         List<Student> GetList();
         void Add(Student student);
